@@ -370,6 +370,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\source\Vector2D.h"
+				>
+			</File>
+			<File
+				RelativePath=".\source\Vector3D.h"
+				>
+			</File>
+			<File
 				RelativePath=".\source\Vector4D.cpp"
 				>
 			</File>
