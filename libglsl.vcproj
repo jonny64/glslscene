@@ -386,11 +386,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\external\lib\Release\freeglut.lib"
+				RelativePath=".\external\lib\Debug\freeglut.lib"
 				>
 			</File>
 			<File
-				RelativePath=".\external\lib\Debug\freeglut.lib"
+				RelativePath=".\external\lib\Release\freeglut.lib"
 				>
 			</File>
 			<File
@@ -398,11 +398,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\external\lib\Release\freeglut_static.lib"
+				RelativePath=".\external\lib\Debug\freeglut_static.lib"
 				>
 			</File>
 			<File
-				RelativePath=".\external\lib\Debug\freeglut_static.lib"
+				RelativePath=".\external\lib\Release\freeglut_static.lib"
 				>
 			</File>
 			<File
