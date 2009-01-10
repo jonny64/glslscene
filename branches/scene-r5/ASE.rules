@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="Ase refinement"
+	Version="8,00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="ase"
+			DisplayName="ase"
+			CommandLine="$(SolutionDir)tools\AseParse [inputs] scene.ase [PathPrepend]"
+			Outputs="scene.ase"
+			FileExtensions="*.ase"
+			ExecutionDescription="Executing tool..."
+			>
+			<Properties>
+				<StringProperty
+					Name="PathPrepend"
+					DisplayName="PathPrepend"
+					DefaultValue="textures/"
+				/>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>
