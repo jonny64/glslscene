@@ -7,10 +7,10 @@
 		<CustomBuildRule
 			Name="ase"
 			DisplayName="ase"
-			CommandLine="$(SolutionDir)tools\AseParse [inputs] scene.ase [PathPrepend]"
+			CommandLine="&quot;$(SolutionDir)tools\AseParse&quot; [inputs] scene.ase [PathPrepend]"
 			Outputs="scene.ase"
 			FileExtensions="*.ase"
-			ExecutionDescription="Executing tool..."
+			ExecutionDescription="Changing textures path to [PathPrepend] in sceneRaw.ase (output to scene.ase)..."
 			>
 			<Properties>
 				<StringProperty
