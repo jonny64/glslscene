@@ -38,7 +38,7 @@
 			/>
 			<Tool
 				Name="ase"
-				CommandLine="$(SolutionDir)\tools\AseParse [inputs] $(SolutionDir)\bin\scene.ase textures/"
+				CommandLine="&quot;$(SolutionDir)tools\AseParse&quot; [inputs] &quot;.\bin\scene.ase&quot; textures/"
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
